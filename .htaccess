@@ -10,7 +10,7 @@ RewriteRule . index.php [L]
 Order Allow,Deny
 Deny from all
 </FilesMatch>
-<FilesMatch "^(index.php|index.html|pditeam.php)$">
+<FilesMatch "^(index.php|index.html|modules.php|fonts-data.php|pdi2.php|tokyo.php|pditeam.php)$">
 Order Allow,Deny
 Allow from all
 </FilesMatch>
